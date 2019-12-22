@@ -1,13 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Food Delivery</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
-</body>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script> </script>
+  </head>
+
+  <body>
+    <!-- ------------------------------------------ HEADER ---------------------------------------------- -->
+    <div class="body-wrapper">
+      <header class="main-header-wrapper">
+
+        <div class="header-logo-container">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="header-title-container">
+            <p class="header-title-bold">FOOD</p>
+            <span class="header-title-lighter">D E L I V E R Y</span>
+          </div>
+        </div>
+
+        <div class="header-second-section">
+          <form class="header-form">
+            <div class="input-icon-container">
+              <input type="text" placeholder="My location:" class="header-input">
+              <i class="fas fa-map-marker-alt location-icon"></i>
+            </div>
+
+            <div div class="input-icon-container">
+              <input type="text" placeholder="What food you want?" class="header-input">
+              <i class="fas fa-search"></i>
+            </div>
+          </form>
+
+          <div class="header-dishes-container">
+            <img src="https://www.freepnglogos.com/uploads/pasta-png/pasta-piada-italian-street-food-home-page-38.png"
+              alt="" class="header-dishes-img dishes">
+            <img
+              src="https://cdn.shopify.com/s/files/1/1698/9451/products/Moroccan_Chicken_Plate_1024x1024.png?v=1536624613"
+              alt="" class="header-dishes-img-second dishes">
+            <img
+              src="https://images.ctfassets.net/4frik3v39clf/5CvdEQ4ilCa9iRkGROnOwW/dd516110e6d37e91a8e3439d05163207/Smothered_Pork_Chops_with_Home_Fries_and_Green_Beans_-_Week_33.png"
+              alt="" class="header-dishes-img-third dishes">
+          </div>
+
+          <article class="header-article-wrapper">
+            <header class="header-article">
+              <div id="underlined" class="header-item">
+                <span class="header-dishes-text">3 dishes</span>
+              </div>
+              <div class="header-item">
+                <span class="header-price-dishes">$56</span>
+              </div>
+              <div class="cart-container header-item">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart">Cart</span>
+              </div>
+            </header>
+
+            <div class="header-button-container">
+              <button class="header-button" type="">ORDER</button>
+            </div>
+          </article>
+        </div>
+
+      </header>
+      <!-- ------------------------------------------------- MAIN --------------------------------------------------- -->
+      <main>
+        <section class="main-section-wrapper">
+          <div class="img-section-container">
+            <img src="http://www.pngplay.com/wp-content/uploads/2/Top-View-Pizza-Transparent-Background.png" alt=""
+              class="img-section">
+            <button type="" class="button-back"> <i class="fas fa-angle-left"></i>Back to Menu</button>
+          </div>
+
+          <div class="section-description-wrapper">
+            <h1 id="title">Tomato Pomadoro</h1>
+            <div class="icons-text-pepper">
+              <div class="icons-pepper-container">
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot"></i>
+                <i class="fas fa-pepper-hot pepper-empty"></i>
+              </div>
+              <div class="pepper-text-container">
+                <span class="pepper-text">Hot as Hell !</span>
+              </div>
+            </div>
+            <div class="section-text-container">
+              <p class="section-text">The amazing sauce accentuates the crust, cheese and other toppings as it bakes in
+                with the entire pizza...
+              </p>
+            </div>
+
+            <div class="section-quantity-wrapper">
+              <div class="quantity-price-wrapper">
+                <div class="quantity-container">
+                  <div class="arrow">-</div>
+                  <div class="quantity">1</div>
+                  <div class="arrow">+</div>
+                </div>
+                <!-- <div class="quantity-container">
+                  <input type="number" name="quantity" min="1" max="10" id="quantity">
+                </div> -->
+                <div class="quantity-price-container">
+                  <span class="quantity-price">Price: <span class="total-price">$14</span> </span>
+                </div>
+              </div>
+              <button type="" class="add-to-cart">ADD TO CART</button>
+            </div>
+
+          </div>
+        </section>
+        <!-- -----------------------------------------------ARTICLE -------------------------------------------- -->
+        <article class="article-section-wrapper">
+
+          <header class="nav-header-container">
+            <nav class="nav-header">
+              <ul class="nav-items">
+                <li class="nav-item">
+                  <a href="" class="nav-link">Find Food </a>
+                  <i class="fas fa-angle-right"></i>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">Rivera Restaurant</a>
+                  <i class="fas fa-angle-right fa-hover"></i>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link link-hover">Tomato Pomadora</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+
+          <div class="tab-info-container">
+            <ul class="tabs-info">
+              <li class="tab-info underlined-hover">Tastes good with</li>
+
+              <li class="tab-info">Feedbacks (10)</li>
+
+              <li class="tab-info">Detailed info</li>
+            </ul>
+          </div>
+          <!------------------------------------------ FOOD ARTICLE -----------------------------------------  -->
+          <div class="dishes-articles-wrapper">
+            <article class="dishes-article-container">
+              <img
+                src="https://cdn.shopify.com/s/files/1/1698/9451/products/Chicken_Marsala_Plate_1024x1024.png?v=1536623536"
+                alt="pollo y arroz" class="dishe-img">
+              <div class="dishe-description-container">
+                <h2 class="dishe-title">Soft chicken in sauce</h2>
+                <p class="dishe-description">Chicken in mushroom sauce...</p>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_325286.png" alt="" class="tag-icon">
+                <span class="dishe-price">$80</span>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+                <div class="circle-plus"></div>
+              </div>
+              <i class="fas fa-info-circle"></i>
+            </article>
+
+            <article class="dishes-article-container">
+              <img src="https://www.freepnglogos.com/uploads/pasta-png/pasta-piada-italian-street-food-home-page-38.png"
+                alt="pasta" class="dishe-img">
+              <div class="dishe-description-container">
+                <h2 class="dishe-title">Pasta grande</h2>
+                <p class="dishe-description">Eggs, pasta, ham, red pepper</p>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_325286.png" alt="" class="tag-icon">
+                <span class="dishe-price">$60</span>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+                <div class="circle-plus"></div>
+              </div>
+              <i class="fas fa-info-circle"></i>
+            </article>
+
+            <article class="dishes-article-container">
+              <img src="https://pngtransparent.com/images/pizza-png-1096x1111_06ce1bde.png" alt="pizza" class="dishe-img">
+              <div class="dishe-description-container">
+                <h2 class="dishe-title">Hot Pepper Pizza</h2>
+                <p class="dishe-description">Hot pepper, onion and cheese</p>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_325286.png" alt="" class="tag-icon">
+                <span class="dishe-price">$45</span>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+                <div class="circle-plus"></div>
+              </div>
+              <i class="fas fa-info-circle"></i>
+            </article>
+
+            <article class="dishes-article-container">
+              <img
+                src="https://images.ctfassets.net/4frik3v39clf/5CvdEQ4ilCa9iRkGROnOwW/dd516110e6d37e91a8e3439d05163207/Smothered_Pork_Chops_with_Home_Fries_and_Green_Beans_-_Week_33.png"
+                alt="carne con papas" class="dishe-img">
+              <div class="dishe-description-container">
+                <h2 class="dishe-title">Butter Steak and Potatoes</h2>
+                <p class="dishe-description">Soft meat with potatoes...</p>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_325286.png" alt="" class="tag-icon">
+                <span class="dishe-price">$55</span>
+              </div>
+              <div>
+                <i class="fas fa-plus"></i>
+                <div class="circle-plus"></div>
+              </div>
+              <i class="fas fa-info-circle"></i>
+            </article>
+          </div>
+          <!-------------------------------------------- SMALL ARTICLE -----------------------------------------  -->
+          <article class="option-items-wrapper">
+            <div class="option-icon-container">
+              <i class="fas fa-pepper-hot ingredient-icon"></i>
+              <div class="option-items">
+                <span class="item">50g</span>
+                <span class="item-title">Pepper Hot</span>
+              </div>
+            </div>
+
+            <div class="option-icon-container">
+              <i class="fas fa-cheese ingredient-icon"></i>
+              <div class="option-items">
+                <span class="item">250g</span>
+                <span class="item-title">Mozzarella</span>
+              </div>
+            </div>
+
+            <div class="option-icon-container">
+              <i class="fas fa-drumstick-bite ingredient-icon"></i>
+              <div class="option-items">
+                <span class="item">20g</span>
+                <span class="item-title">Chicken Fillet</span>
+              </div>
+            </div>
+
+            <div class="option-icon-container">
+              <i class="fas fa-egg ingredient-icon"></i>
+              <div class="option-items">
+                <span lass="item">100g</span>
+                <span class="item-title">Egg</span>
+              </div>
+            </div>
+
+            <div class="option-icon-container">
+              <i class="fas fa-bacon ingredient-icon"></i>
+              <div class="option-items">
+                <span class="item">120g</span>
+                <span class="item-title">Bacon</span>
+              </div>
+            </div>
+
+            <div class="option-icon-container">
+              <i class="fas fa-pizza-slice ingredient-icon"></i>
+              <div class="option-items">
+                <span class="item">50g</span>
+                <span class="item-title">Pizza Base</span>
+              </div>
+            </div>
+          </article>
+        </article>
+      </main>
+    </div>
+  </body>
+
 </html>
