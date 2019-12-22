@@ -474,6 +474,6 @@ main {
   color: #8589D3;
   width: 25px;
 }
-button, li:hover {
+button, li, .fa-info-circle, .fa-plus:hover {
   cursor: pointer;
 }
